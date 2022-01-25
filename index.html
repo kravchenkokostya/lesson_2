@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 2 Winter '22</title>
+</head>
+
+<body>
+	<header class="header">
+		<h2>Quantum computing</h2>
+	</header>
+	<main class="main">
+		<nav class="menu">
+			<ul>
+				<li>
+					<a href="#block_1">What is quantum computing?</a>
+				</li>
+				<li>
+					<a href="#block_2">Why do we need quantum computers?</a>
+				</li>
+				<li>
+					<a href="#block_3">Why quantum computers are faster</a>
+				</li>
+				<li>
+					<a href="#block_4">How do quantum computers work?</a>
+				</li>
+				<li>
+					<a href="#block_5">Quantum computing hype vs. reality</a>
+				</li>
+				<li>
+					<a href="#block_6">Learn quantum computing programming</a>
+				</li>
+				<li>
+					<a href="#block_7">Related solutions</a>
+					<ol>
+						<li>
+							<a href="#item_1">Quantum software and programming tools</a>
+						</li>
+						<li>
+							<a href="#item_2">IBM Quantum services</a>
+						</li>
+						<li>
+							<a href="#item_3">Quantum computing systems</a>
+						</li>
+					</ol>
+				</li>
+			</ul>
+		</nav><!-- menu -->
+		<div class="page">
+			<h1>What is quantum computing?</h1>
+			<img width="500" src="img/img1.jpg" alt="quantum computer picture">
+			<div class="block_1">
+				<h3 id="block_1">What is quantum computing?</h3>
+				<p>Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to
+					solve
+					problems too complex for classical computers. </p>
+				<p>Today, IBM Quantum makes real quantum hardware -- a tool scientists only began to imagine three
+					decades
+					ago -- available to thousands of developers. Our engineers deliver ever-more-powerful
+					superconducting
+					quantum processors at regular intervals, building toward the quantum computing speed and capacity
+					necessary to change the world.
+				</p>
+				<p>These machines are very different from the classical computers that have been around for more than
+					half a
+					century. Here's a primer on this transformative technology.
+				</p>
+				<a href="https://www.ibm.com/quantum-computing/systems" target="_blank">Explore IBM Quantum systems</a>
+			</div><!-- block_1 -->
+			<div class="block_2">
+				<h3 id="block_2">Why do we need quantum computers?</h3>
+				<span>For some problems, supercomputers arent that super.</span><br>
+				<span>When scientists and engineers encounter difficult problems, they turn to supercomputers.<br> These
+					are
+					very large classical computers, often with thousands of classical CPU and GPU cores.<br> However,
+					even
+					supercomputers struggle to solve certain kinds of problems.</span><br>
+				<span>If a supercomputer gets stumped, that's probably because the big classical machine was asked to
+					solve
+					a problem with a high degree of complexity.<br> When classical computers fail, it's often due to
+					complexity.</span><br>
+				<span>Complex problems are problems with lots of variables interacting in complicated ways.<br> Modeling
+					the
+					behavior of individual atoms in a molecule is a complex problem, because of all the different
+					electrons interacting with one another.<br> Sorting out the ideal routes for a few hundred tankers
+					in a
+					global shipping network is complex too.</span><br>
+				<span><mark>Some complex problems are less obvious:</mark><br> A supercomputer would struggle to find
+					the ideal
+					seating
+					arrangement of even 10 guests at a dinner party if they don't all want to sit next to one another,
+					or to find the prime factors of a big number.</span>
+			</div><!-- block_2 -->
+			<div class="block_3">
+				<h3 id="block_3">Why quantum computers are faster</h3>
+				<mark>Let's look at example that shows how quantum computers can succeed where classical computers fail:
+				</mark>
+				<p>A supercomputer might be great at difficult tasks like sorting through a big database of protein
+					sequences. But it will struggle to see the subtle patterns in that data that determine how those
+					proteins behave.</p>
+				<p>Proteins are long strings of amino acids that become useful biological machines when they fold into
+					complex shapes. Figuring out how proteins will fold is a problem with important implications for
+					biology and medicine.</p>
+				<p>A classical supercomputer might try to fold a protein with brute force, leveraging its many
+					processors to check every possible way of bending the chemical chain before arriving at an answer.
+					But as the protein sequences get longer and more complex, the supercomputer stalls. A chain of 100
+					amino acids could theoretically fold in any one of many trillions of ways. No computer has the
+					working memory to handle all the possible combinations of individual folds.</p>
+				<p>Quantum algorithms take a new approach to these sorts of complex problems -- creating
+					multidimensional spaces where the patterns linking individual data points emerge. In the case of a
+					protein folding problem, that pattern might be the combination of folds requiring the least energy
+					to produce. That combination of folds is the solution to the problem.</p>
+				<p>Classical computers can not create these computational spaces, so they can not find these patterns.
+					In the case of proteins, there are already early quantum algorithms that can find folding patterns
+					in entirely new, more efficient ways, without the laborious checking procedures of classical
+					computers. As quantum hardware scales and these algorithms advance, they could tackle protein
+					folding problems too complex for any supercomputer.</p>
+				<h4>How complexity stumps supercomputers</h4>
+				<p>Proteins are long strings of amino acids that become useful biological machines when they fold into
+					complex shapes. Figuring out how proteins will fold is a problem with important implications for
+					biology and medicine.</p>
+				<p>A classical supercomputer might try to fold a protein with brute force, leveraging its many
+					processors to check every possible way of bending the chemical chain before arriving at an answer.
+					But as the protein sequences get longer and more complex, the supercomputer stalls. A chain of 100
+					amino acids could theoretically fold in any one of many trillions of ways. No computer has the
+					working memory to handle all the possible combinations of individual folds.</p>
+				<h4>Quantum computers are built for complexity</h4>
+				<p>Quantum algorithms take a new approach to these sorts of complex problems -- creating
+					multidimensional spaces where the patterns linking individual data points emerge. Classical
+					computers can not create these computational spaces, so they can not find these patterns. In the
+					case of proteins, there are already early quantum algorithms that can find folding patterns in
+					entirely new, more efficient ways, without the laborious checking procedures of classical computers.
+					As quantum hardware scales and these algorithms advance, they could tackle protein folding problems
+					too complex for any supercomputer.</p>
+			</div><!-- block_3 -->
+			<div class="block_4">
+				<h3 id="block_4">How do quantum computers work?</h3>
+				<span>Quantum computers are elegant machines, smaller and requiring less energy than supercomputers. An
+					IBM
+					Quantum processor is a wafer not much bigger than the one found in a laptop. And a quantum hardware
+					system is about the size of a car, made up mostly of cooling systems to keep the superconducting
+					processor at its ultra-cold operational temperature.</span>
+				<span>A classical processor uses bits to perform its operations. A quantum computer uses qubits
+					(CUE-bits)
+					to run multidimensional quantum algorithms.</span>
+				<h4>Superfluids</h4>
+				<span>Your desktop computer likely uses a fan to get cold enough to work. Our quantum processors need to
+					be
+					very cold about a hundredth of a degree above absolute zero. To achieve this, we use super-cooled
+					superfluids to create superconductors.</span>
+				<h4>Superconductors</h4>
+				<span>At those ultra-low temperatures certain materials in our processors exhibit another important
+					quantum
+					mechanical effect: electrons move through them without resistance. This makes them
+					"superconductors." When electrons pass through superconductors they match up, forming "Cooper
+					pairs." These pairs can carry a charge across barriers, or insulators, through a process known as
+					quantum tunneling. Two superconductors placed on either side of an insulator form a Josephson
+					junction.</span>
+				<h4>Control</h4>
+				<span>Our quantum computers use Josephson junctions as superconducting qubits. By firing microwave
+					photons
+					at these qubits, we can control their behavior and get them to hold, change, and read out individual
+					units of quantum information.</span>
+				<h4>Superposition</h4>
+				<span>A qubit itself isn't very useful. But it can perform an important trick: placing the quantum
+					information it holds into a state of superposition, which represents a combination of all possible
+					configurations of the qubit. Groups of qubits in superposition can create complex, multidimensional
+					computational spaces. Complex problems can be represented in new ways in these spaces.</span>
+				<h4>Entanglement</h4>
+				<span>Entanglement is a quantum mechanical effect that correlates the behavior of two separate things.
+					When
+					two qubits are entangled, changes to one qubit directly impact the other. Quantum algorithms
+					leverage those relationships to find solutions to complex problems.</span>
+			</div><!-- block_4 -->
+			<div class="block_5">
+				<h3 id="block_5">Quantum computing hype vs. reality</h3>
+				<p>IBM Quantum is your partner to cut through the hype surrounding quantum computing, and to position
+					your institution to leverage this emerging technology for competitive advantage. Here's what
+					business leaders need to understand about quantum computing today.</p>
+				<p>Quantum computers are poised to transform the way you work in research. Classical computers get
+					bogged down trying to model natural systems, including chemical reactions and folding proteins.
+					Quantum computers offer a new set of tools to understand the universe.</p>
+				<p>Programming for quantum computers doesn't require extensive retraining or new coding languages. But
+					it will give you access to an entirely new computing paradigm all the same. Here are the basics you
+					need to know to get started with quantum development today. </p>
+			</div><!-- block_5 -->
+			<div class="block_6">
+				<h3 id="block_6">Learn quantum computing programming</h3>
+				<span>You can explore the world of quantum computing for free on IBM Cloud, and learn to write quantum
+					code
+					- starting with absolutely zero experience. If you're a developer, jump right in by joining the
+					world's largest quantum developer community and <a
+						href="https://www.ibm.com/quantum-computing/tools/" target="_blank">start today</a>.</span>
+				<span>IBM's quantum computers are programmed using <a href="https://qiskit.org/"
+						target="_blank">Qiskit</a>
+					(link resides
+					outside of ibm.com), a software
+					development kit in Python. Qiskit is free, open source, and accompanied with a comprehensive
+					textbook and semester-length course</span>
+				<a href="https://qiskit.org/learn/" target="_blank">Learn quantum computing</a>
+			</div><!-- block_6 -->
+			<div class="block_7">
+				<h3 id="block_7">Related solutions</h3>
+				<h4 id="item_1">Quantum software and programming tools</h4>
+				<p>Our on-location systems and cloud services are tailored to meet the needs of global industry,
+					institutions, and governments.</p>
+				<a href="https://www.ibm.com/quantum-computing/tools" target="_blank" class="link">Explore tools for
+					quantum
+					computing</a>
+				<h4 id="item_2">IBM Quantum services</h4>
+				<p>IBM Quantum services offer every level of developer access to our world-leading quantum hardware and
+					the software necessary to use it.</p>
+				<a href="https://www.ibm.com/quantum-computing/services/" target="_blank" class="link">Explore IBM
+					Quantum
+					Services</a>
+				<h4 id="item_3">Quantum computing systems</h4>
+				<p>Our on-location systems and cloud services are tailored to meet the needs of global industry,
+					institutions, and governments.</p>
+				<a href="https://www.ibm.com/quantum-computing/systems" target="_blank" class="link">Explore quantum
+					computing
+					systems</a>
+			</div><!-- block_7 -->
+		</div><!-- page -->
+	</main>
+	<footer>
+		<p>Foooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooter IBM.2022</p>
+	</footer>
+</body>
+
+</html>
